@@ -5,23 +5,11 @@ import mysql.connector
 import random
 
 # ✅ إنشاء قاعدة بيانات للحجوزات
-#conn = sqlite3.connect("bookings.db")
-#cursor = conn.cursor()
-#cursor.execute("""
-# CREATE TABLE IF NOT EXISTS bookings (
-#  id INTEGER PRIMARY KEY AUTOINCREMENT,
-#   user_name TEXT,
-# #    service TEXT,
-#      time TEXT
-#   )
-#""")
-#conn.commit()
-
 db= mysql.connector.connect(
     host="localhost",
     user="waled",
-    password="12123",  # تصحيح اسم المتغير من `passwd` إلى `password`
-    database="test_db"  # تأكد من تحديد قاعدة البيانات الصحيحة
+    password="******",  # تصحيح اسم المتغير من `passwd` إلى `password`
+    database="test_**"  # تأكد من تحديد قاعدة البيانات الصحيحة
 )
 print("تم الاتصال بنجاح:" ,db)
 cursor= db.cursor()
