@@ -3,8 +3,7 @@ store_name = "waled appo hgir Store"
 discount_percentage = 10  
 
 print("Welcome to ", store_name," !")
-
-    
+   
 inventory = {
         "Apple": {"price": 0.5, "quantity": 50},
         "Banana": {"price": 0.3, "quantity": 30},
