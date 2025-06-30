@@ -6,8 +6,8 @@ import random
 # ✅ إنشاء قاعدة بيانات للحجوزات
 db= mysql.connector.connect(
     host="localhost",
-    user="waled",
-    password="******",  # تصحيح اسم المتغير من `passwd` إلى `password`
+    user="*********",
+    password="******",  # تصحيح اسم المتغير من `password` إلى `password`
     database="test_**"  # تأكد من تحديد قاعدة البيانات الصحيحة
 )
 print("تم الاتصال بنجاح:" ,db)
